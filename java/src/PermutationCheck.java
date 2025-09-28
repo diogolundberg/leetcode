@@ -1,8 +1,9 @@
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.Test;
+
 public class PermutationCheck {
+
     public int solution(int[] A) {
         int result = 0;
         for (int i = 0; i < A.length; i++) {
@@ -13,8 +14,8 @@ public class PermutationCheck {
     }
 
     @Test
-    public void test(){
+    public void test() {
         PermutationCheck solution = new PermutationCheck();
-        assertEquals(3, solution.solution(new int[]{1, 2, 4}));
+        assertEquals(3, solution.solution(new int[] { 1, 2, 4 }));
     }
 }
