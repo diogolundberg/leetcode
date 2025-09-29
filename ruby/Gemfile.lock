@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    language_server-protocol (3.17.0.5)
+    logger (1.7.0)
+    prism (1.5.1)
+    rbs (3.9.5)
+      logger
+    ruby-lsp (0.26.1)
+      language_server-protocol (~> 3.17.0)
+      prism (>= 1.2, < 2.0)
+      rbs (>= 3, < 5)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  ruby-lsp
+
+RUBY VERSION
+   ruby 3.4.6p54
+
+BUNDLED WITH
+   2.6.9
