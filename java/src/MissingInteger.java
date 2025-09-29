@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 
 public class MissingInteger {
 
-    public int solution(int[] A) {
-        Map<Integer, Boolean> occurrences = new HashMap<>();
+    public int solution(final int[] A) {
+        final Map<Integer, Boolean> occurrences = new HashMap<>();
 
-        for (int integer : A) {
+        for (final int integer : A) {
             occurrences.put(integer, true);
         }
 
@@ -22,7 +22,7 @@ public class MissingInteger {
 
     @Test
     public void test() {
-        MissingInteger solution = new MissingInteger();
+        final MissingInteger solution = new MissingInteger();
         assertEquals(2, solution.solution(new int[] { 8, 1, 1, 1, 10, 10, 8 }));
     }
 }
