@@ -5,3 +5,5 @@
 [Build your own <insert-technology-here>](https://github.com/codecrafters-io/build-your-own-x)
 
 [Medium.com clone](https://github.com/gothinkster/realworld)
+
+[What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
