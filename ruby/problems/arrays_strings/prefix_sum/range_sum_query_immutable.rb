@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 
-class NumArray
+class RangeSumQueryImmutable
   def initialize(nums)
     @nums = nums
     @prefix_sum = Array.new(nums.length + 1, 0)
@@ -15,9 +15,9 @@ class NumArray
   end
 end
 
-class TestNumArray < Minitest::Test
+class TestRangeSumQueryImmutable < Minitest::Test
   def test_example
-    num_array = NumArray.new([-2, 0, 3, -5, 2, -1])
+    num_array = RangeSumQueryImmutable.new([-2, 0, 3, -5, 2, -1])
 
     assert_equal 1, num_array.sum_range(0, 2)
     assert_equal(-1, num_array.sum_range(2, 5))
